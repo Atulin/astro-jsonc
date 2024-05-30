@@ -1,0 +1,26 @@
+{
+	"name": "astro-jsonc",
+	"version": "1.0.0",
+	"description": "A simple JSON With Comments parser to allow its usage in Astro.",
+	"repository": "https://github.com/Atulin/astro-jsonc",
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"type": "module",
+	"files": ["dist", "src", "LICENSE", "package.json"],
+	"scripts": {
+		"build": "tsc"
+	},
+	"keywords": ["astro-integration", "jsonc", "comments", "json"],
+	"author": "Atulin",
+	"license": "MIT",
+	"peerDependencies": {
+		"astro": "^4.0.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.7.3",
+		"@types/html-escaper": "^3.0.0",
+		"@types/node": "^20.5.3",
+		"astro": "^4.0.0",
+		"typescript": "^5.1.6"
+	}
+}
