@@ -1,8 +1,11 @@
 {
-	"name": "astro-jsonc",
+	"name": "@angius/astro-jsonc",
 	"version": "1.0.0",
 	"description": "A simple JSON With Comments parser to allow its usage in Astro.",
-	"repository": "https://github.com/Atulin/astro-jsonc",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Atulin/astro-jsonc.git"
+	},
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
 	"type": "module",
